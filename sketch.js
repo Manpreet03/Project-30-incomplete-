@@ -23,30 +23,29 @@ function setup() {
 
   stand = new Ground(450,480,900,10);
 
-  //level 1
-  box1 = new Box(750,275,40,50);
-  box2 = new Box(700,275,40,50);
-  box3 = new Box(650,275,40,50);
-  box4 = new Box(600,275,40,50);
-  box5 = new Box(550,275,40,50);
+ //level 1
+  box1 = new Box(750,450,50,50);
+  box2 = new Box(700,450,50,50);
+  box3 = new Box(650,450,50,50);
+  box4 = new Box(600,450,50,50);
+  box5 = new Box(550,450,50,50);
 
   //level 2
-  box6 = new Box(750,235,40,50);
-  box7 = new Box(700,235,40,50);
-  box8 = new Box(650,235,40,50);
-  box9 = new Box(600,235,40,50);
+  box6 = new Box(750,400,50,50);
+  box7 = new Box(700,400,50,50);
+  box8 = new Box(650,400,50,50);
+  box9 = new Box(600,400,50,50);
 
   //level 3
-  box10 = new Box(750,195,40,50);
-  box11 = new Box(700,195,40,50);
-  box12 = new Box(650,195,40,50);
+  box10 = new Box(750,350,50,50);
+  box11 = new Box(700,350,50,50);
+  box12 = new Box(650,350,50,50);
 
   //level 4
-  box13 = new Box(750,155,40,50);
-  box14 = new Box(700,155,40,50);
-
+  box13 = new Box(750,300,50,50);
+  box14 = new Box(700,300,50,50);
   //level 5
-  box15 = new Box(750,115,40,50);
+  box15 = new Box(750,250,50,50);
 
 }
 
